@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Nginx
-  hosts: 192.168.126.133
+  hosts: 192.168.126.138
   become: yes
   tasks:
     - name: Ensure Nginx is installed
